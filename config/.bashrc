@@ -12,7 +12,9 @@ alias grep='grep --color=auto'
 # export PS1="\\$ \W "
 # export PS1="\\-> \W "
 # export PS1="-> /\W "
-export PS1="∮ /\W "
+# export PS1="∮ /\W "
+# export PS1="\W ∮"
+export PS1='\[\e[33m\]\W\[\e[0m\] ∮'
 
 ## aliases
 alias ls='lsd'
